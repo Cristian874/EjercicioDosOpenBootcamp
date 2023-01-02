@@ -16,11 +16,13 @@ public class OpenProyectoTres {
     public static void main(String[] args) {
         int contador = 10;
         
-        while(contador > 0){
+        do{
             System.out.println(contador);
-            contador = contador - 1;
-            
+            contador = contador -1;
         }
-    }
+        while(contador >10);
+        
     
+    
+}
 }
